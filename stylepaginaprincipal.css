@@ -121,4 +121,53 @@ body {
     cursor: pointer;
 }
 
+/* hover en ítem: se levanta */
+.pinterest-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+}
+
+/* imagen dentro del ítem */
+.pinterest-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* hover en imagen: se agranda */
+.pinterest-item:hover img {
+    transform: scale(1.05);
+}
+
+/* responsive: 3 columnas en pantallas medianas */
+@media (max-width: 1200px) {
+    .pinterest-grid {
+        column-count: 3;
+    }
+}
+
+/* responsive: 2 columnas en tablets */
+@media (max-width: 768px) {
+    .pinterest-grid {
+        column-count: 2;
+        column-gap: 15px;
+    }
+
+    .pinterest-item {
+        margin-bottom: 15px;
+    }
+
+    body {
+        padding: 15px;
+    }
+}
+
+/* responsive: 1 columna en celulares */
+@media (max-width: 480px) {
+    .pinterest-grid {
+        column-count: 1;
+    }
+}
 
