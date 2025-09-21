@@ -21,8 +21,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-/* FORMULARIO INTEGRADO ESTO ES PARA QUE ESTE AL LADO CON SUS DIRECCIONES ESPECIFICAS */
+/*FORMULARIO INTEGRADO ESTO ES PARA QUE ESTE AL LADO CON SUS DIRECCIONES ESPECIFICAS */
 .ladoFormulario {
   flex: 0.4;
   background: rgba(0, 0, 0, 0.6);
