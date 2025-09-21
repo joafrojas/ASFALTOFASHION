@@ -30,3 +30,17 @@
     margin: 0;
     padding: 0;
 }
+
+/* links del menú */
+.menuNav li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+/* efecto hover en links */
+.menuNav li a:hover {
+    color: #fff;
+}
+
