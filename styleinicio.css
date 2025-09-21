@@ -60,14 +60,14 @@ body {
   color: #888;
 }
 
-/* === LOGO CENTRADO === */
+/* LOGO CENTRADO  */
 .logo {
   width: 180px;
   margin-bottom: 30px;
   border-radius: 10px;
 }
 
-/* === FORMULARIO ORDENADO === */
+/*FORMULARIO ORDENADO*/
 form {
   width: 100%;
   max-width: 300px;
@@ -76,7 +76,7 @@ form {
   gap: 12px;
 }
 
-/* === TÍTULO CON FUENTE DE MODA === */
+/* TÍTULO CON FUENTE  */
 h2 {
   text-align: center;
   margin-bottom: 10px;
@@ -86,7 +86,7 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* === CAMPOS DE TEXTO === */
+/*  CAMPOS DE TEXTO */
 input {
   width: 100%;
   padding: 12px;
@@ -97,7 +97,7 @@ input {
   font-size: 15px;
 }
 
-/* === BOTÓN CON ESTILO MINIMALISTA === */
+/* BOTÓN CON ESTILO */
 button {
   width: 100%;
   padding: 12px;
@@ -120,14 +120,14 @@ button:hover {
   background: #ddd;
 }
 
-/* === MENSAJES DE ERROR === */
+/* === MENSAJES DE ERROR */
 .error {
   font-size: 12px;
   color: #e74c3c;
   height: 14px;
 }
 
-/* === ENLACES DE CAMBIO === */
+/*  ENLACES DE CAMBIO */
 .link {
   text-align: center;
   font-size: 14px;
@@ -142,7 +142,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* === MARCA REGISTRADA === */
+/* MARCA REGISTRADA */
 .marca {
   margin-top: 30px;
   font-size: 13px;
