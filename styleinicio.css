@@ -14,7 +14,7 @@ body {
   width: 100vw;
 }
 
-/* === FOTO PROTAGONISTA === */
+/* FOTO PROTAGONISTA ESTO ES PARA TENER COMO DE REFERENCIA A VOGUE A LA HORA DE VER LA INTERFAZ DE REGISTRO LA CUAL ES ELEGANTE*/
 .ladoImagen {
   flex: 0.6;
   background-image: url('IMG/fondothug.jpg');
@@ -22,7 +22,7 @@ body {
   background-position: center;
 }
 
-/* === FORMULARIO INTEGRADO === */
+/* FORMULARIO INTEGRADO ESTO ES PARA QUE ESTE AL LADO CON SUS DIRECCIONES ESPECIFICAS */
 .ladoFormulario {
   flex: 0.4;
   background: rgba(0, 0, 0, 0.6);
@@ -34,7 +34,7 @@ body {
   padding: 40px;
 }
 
-/* === INTRO EDITORIAL TIPO VOGUE === */
+/* INTRO EDITORIAL TIPO VOGUE */
 .introEditorial {
   font-family: 'Georgia', serif;
   max-width: 340px;
