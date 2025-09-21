@@ -1,0 +1,15 @@
+/* navbar fija arriba con fondo negro */
+.navbarAsfalto {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    border-bottom: 1px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
