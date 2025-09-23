@@ -1,0 +1,62 @@
+/* reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fondo negro, texto blanco, tipografía serif */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  padding: 40px 20px;
+}
+
+/* encabezado centrado */
+.headerThug {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* título principal */
+.headerThug h1 {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* subtítulo gris claro */
+.headerThug p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* contenedor del contenido */
+.contenidoThug {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* imagen con bordes y sombra suave */
+.imagenThug {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+/* texto descriptivo justificado */
+.descripcionThug {
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* video con bordes redondeados y sombra */
+.videoThug video {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
