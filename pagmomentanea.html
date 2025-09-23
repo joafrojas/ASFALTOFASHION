@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bienvenido a ASFALTOSFASHION</title>
+  <link rel="stylesheet" href="stylemomentanea.css" />
+</head>
+<body>
+  <div class="contenedorCarga">
+    <img src="IMG/asfaltofashion.png" alt="Logo ASFALTOSFASHION" class="logoCarga" />
+    <p class="mensaje">
+      Cargando inicio de sesión…<br>
+      <strong>CORRECTO</strong><br>
+      Bienvenido <span id="nombreUsuario"></span> a ASFALTOSFASHION
+    </p>
+    <div class="barraCarga"></div>
+  </div>
+
+  <script>
+    const nombre = localStorage.getItem('nombreActivo') || 'usuario';
+    document.getElementById('nombreUsuario').textContent = nombre;
+
+    setTimeout(() => {
+      window.location.href = "paginaprincipal.html";
+    }, 3000);
+  </script>
+</body>
+</html>
